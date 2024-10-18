@@ -1,0 +1,223 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif;
+}
+body{
+    background-color: #2d283e;
+    color:#d1d7e0;
+
+}
+:root{
+    --primary-font:#d1d7e0;
+    --primary-background:#2d283e;
+
+}
+/*----------------------------------------- nav bar-------------------------------------- */
+.header{
+    position: fixed;
+    width:100%;
+    z-index: 1; 
+}
+.navbar{
+    display:flex;
+    justify-content:flex-end;
+    align-content: center;
+ 
+    height:60px;
+  
+    background-color:#564f6f;
+ 
+}
+.navbar>a{
+    margin-left: 50px;
+    margin-right:50px;
+    font-size:22px;
+    color:var(--primary-font);
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+  
+    padding:20px;
+
+  
+}
+.navbar a:hover,
+.navbar a.active{
+    color:aquamarine;
+}
+
+.btn{
+    
+    padding :5px 10px;
+    background-color: rgb(69, 202, 209);
+    border-radius: 10px;
+    box-shadow: 0 0 10px #0ef;
+    font-size: 10px;
+    color: #eceff4;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+    margin:6px;
+    height:45px;
+    width: 145px;
+   
+}
+/*----------------------------------------- Home-------------------------------------- */
+.home-section{
+    display: flex;
+}
+.home-content{
+
+    color:#802bb1;
+    font-size: 23px;
+    font-weight: 700;
+    margin:40vh;
+    margin-left:25vh;
+}
+.socials{
+ color:white;
+    font-size:3vh;
+ 
+   
+
+}
+.socials ul{
+    display :flex;
+    justify-content: start;
+   list-style-type:none;
+}
+.socials ul li{
+    width:50px
+}
+.profile{
+    margin-top:30vh;
+    
+}
+.profile img{
+    height:300px;
+    width:300px;
+    border-radius: 50%;
+    margin-left:150px;
+}
+/* ----------------------------------About---------------------- */
+.about-section>h1{
+  padding-top:10vh;
+  margin: 3rem;
+  text-align: center;
+ 
+}
+.about-container{
+    display: flex;
+    gap:2rem;
+    margin: 1rem;
+}
+
+
+/*----------------------------------------- skills -------------------------------------- */
+
+.skills-section>h1{
+    padding-top:100px;
+    margin:50px ;
+    text-align: center;
+}
+
+.images {
+ display:flex;
+ justify-content: space-evenly;
+ flex-wrap: wrap;
+
+  
+}
+.image>h2{
+    text-align: center;
+}
+.image img{
+    padding: 20px;
+    height:150px;
+    width:150px;
+}
+.image:hover{
+box-shadow: 12px 12px 12px rgb(0, 0, 0,0.1),
+-10px -10px 10px black;
+}
+/*----------------------------------------- projects -------------------------------------- */
+.project-section h1{
+text-align: center;
+padding:100px;
+}
+.projects-container:nth-child(even){
+    display:flex;
+    flex-direction: column;
+
+    
+   .project-image{
+        order:1;
+    }
+   .description{
+        order:2;
+    }
+   
+    
+}
+
+.projects-container h1{
+    text-align: center;
+    padding:5px;
+}
+.project{
+    display:flex;
+    gap:20px;
+    margin:20px;
+    }
+   
+
+.project-image img{
+    height:45vh;
+    width:30vw;
+}
+
+/* ------------------------------footer------------------- */
+.footer{
+    display :flex;
+   gap:30px;
+flex-wrap: wrap;
+   
+}
+
+.footer .links{
+   display:flex;
+   gap:30px;
+     
+     color:white;
+     margin-bottom: 10vh;
+     
+   
+    
+}
+.footer .socials{
+    margin-bottom: 10vh;
+    margin-left:1000px;
+}
+.footer .links a{
+    color :white;
+    text-decoration: none;
+}
+.contact-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    }
+    .contact-section>h1{
+        padding-top:100px;
+        text-align: center;
+    }
+
+    .email-section{
+        margin:30vh;
+    }
+.form-container{
+    margin:30vh;
+}
