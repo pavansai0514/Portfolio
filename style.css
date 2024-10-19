@@ -51,9 +51,9 @@ body{
 .btn{
     
     padding :5px 10px;
-    background-color: rgb(69, 202, 209);
+    background-color: rgb(134, 168, 172);
     border-radius: 10px;
-    box-shadow: 0 0 10px #0ef;
+    box-shadow: 0 0 10px rgb(124, 137, 138);
     font-size: 10px;
     color: #eceff4;
     letter-spacing: 1px;
